@@ -1,0 +1,38 @@
+{
+  "name": "node-typeorm-mongodb-rest-api",
+  "version": "1.0.0",
+  "description": " A basic starter for an express.js API",
+  "main": "index.js",
+  "scripts": {
+    "dev": "tsc-watch --onSuccess \"node dist/index.js\"",
+    "build": "tsc",
+    "start": "node src/index.js"
+  },
+  "keywords": [],
+  "author": "Jayvir Rathi",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Jayvirrathi/node-typeorm-mongodb-rest-api.git"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "helmet": "^3.23.3",
+    "mongodb": "^3.6.4",
+    "morgan": "^1.10.0",
+    "reflect-metadata": "^0.1.13",
+    "typeorm": "^0.2.30"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.10",
+    "@types/express": "^4.17.11",
+    "@types/morgan": "^1.9.2",
+    "@types/node": "^14.14.27",
+    "nodemon": "^2.0.4",
+    "supertest": "^4.0.2",
+    "tsc-watch": "^4.2.9",
+    "typescript": "^4.1.5"
+  }
+}
